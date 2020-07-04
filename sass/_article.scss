@@ -57,7 +57,9 @@
     color: #000;
     text-transform: uppercase;
   }
+  
 &__imgbtn{
+  
 flex-direction: column;
 justify-content: flex-end;
   position: absolute;
@@ -65,5 +67,9 @@ justify-content: flex-end;
   left: -40px;
   right: 40px;
 
+}
+
+&:hover {
+box-shadow: 0 0 10px red($color: #000000);
 }
 }
