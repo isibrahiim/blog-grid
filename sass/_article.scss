@@ -7,7 +7,8 @@
   flex-shrink: 1;
   flex-basis: calc(100% / 3 - 20px);
 
-  &__img, &__bg {
+  &__img,
+  &__bg {
     max-width: 100%;
   }
 
@@ -34,42 +35,34 @@
     margin-bottom: 20px;
   }
 
-
   &--big {
     flex-basis: calc(100% / 1.5 - 20px);
   }
 
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 285px;
+  }
 
-  &__absolute1 {
-    position: absolute;
-    bottom: 150px;
-    left: 40px;
-    right: 40px;
-  } 
-  &__date2{
-
+  &__date2 {
     color: rgb(75, 71, 71);
     margin-bottom: 20px;
-
   }
-  &__h2{
+  &__h2 {
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
+    height: 150px;
+    overflow: hidden;
   }
-  
-&__imgbtn{
-  
-flex-direction: column;
-justify-content: flex-end;
-  position: absolute;
-  bottom: -152px;
-  left: -40px;
-  right: 40px;
 
-}
+  &__imgbtn {
+    padding: 15px;
+  }
 
-&:hover {
-box-shadow: 0 0 10px red($color: #000000);
-}
+  &:hover {
+    box-shadow: 0 0 10px red($color: #000000);
+  }
 }

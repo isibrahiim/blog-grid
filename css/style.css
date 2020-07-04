@@ -72,11 +72,11 @@ table {
 .article--big {
   flex-basis: calc(100% / 1.5 - 20px);
 }
-.article__absolute1 {
-  position: absolute;
-  bottom: 150px;
-  left: 40px;
-  right: 40px;
+.article__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 285px;
 }
 .article__date2 {
   color: #4b4747;
@@ -86,14 +86,11 @@ table {
   font-size: 20px;
   color: #000;
   text-transform: uppercase;
+  height: 150px;
+  overflow: hidden;
 }
 .article__imgbtn {
-  flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  bottom: -152px;
-  left: -40px;
-  right: 40px;
+  padding: 15px;
 }
 .article:hover {
   box-shadow: 0 0 10px 0;
