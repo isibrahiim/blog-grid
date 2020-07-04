@@ -48,18 +48,23 @@
 
   &__date2 {
     color: rgb(75, 71, 71);
-    margin-bottom: 20px;
+    padding: 20px;
   }
   &__h2 {
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
-    height: 150px;
+    padding: 0 20px;
+    height: 180px;
+    margin-bottom: 8px;
     overflow: hidden;
+    justify-self: flex-start;
+    
   }
 
   &__imgbtn {
-    padding: 15px;
+    padding: 20px;
+    border-top: 10px;
   }
 
   &:hover {

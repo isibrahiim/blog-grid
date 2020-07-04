@@ -80,17 +80,21 @@ table {
 }
 .article__date2 {
   color: #4b4747;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 .article__h2 {
   font-size: 20px;
   color: #000;
   text-transform: uppercase;
-  height: 150px;
+  padding: 0 20px;
+  height: 180px;
+  margin-bottom: 8px;
   overflow: hidden;
+  justify-self: flex-start;
 }
 .article__imgbtn {
-  padding: 15px;
+  padding: 20px;
+  border-top: 10px;
 }
 .article:hover {
   box-shadow: 0 0 10px 0;
