@@ -1,6 +1,6 @@
 .article {
   background-color: #fff;
-  height: 531px;
+  max-height: 531px;
   margin: 10px;
   position: relative;
   flex-grow: 1;
@@ -10,6 +10,7 @@
   &__img,
   &__bg {
     max-width: 100%;
+    min-width: 100%;
   }
 
   &__img {
